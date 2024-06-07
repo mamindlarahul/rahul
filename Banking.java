@@ -16,8 +16,9 @@ public class Banking {
 	       
 	        if (accountNumber.length() != 12) {
 	            System.err.println("Invalid account number. Please enter a 12-digit account number.");
-	          
+			 System.out.println(" ");  
 	        }
+		else{
 	        
 	        double balance = 1000.00;  
 	        System.out.println("Your current balance is: $" + balance);
@@ -66,6 +67,7 @@ public class Banking {
 	        System.out.println("Thank you :)");
 
 	        scanner.close();
+		}
 	}
 
 }
